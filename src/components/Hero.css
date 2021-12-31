@@ -1,0 +1,9 @@
+h1{
+  column-fill: balance;
+}
+body{
+  direction: rtl;
+}
+#section1{
+  margin-bottom: 40px;
+}
