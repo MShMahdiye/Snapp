@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='flex text-xl px-30 justify-between mr-2 items-center h-16 bg-white text-gray-500 mt-10'>
       {/* <p>Copyright  © 2002 - 2021 All rights</p> */}
-      <div className='pr-8 font-Jomhuria font-30 md:block hidden' >
+      <div className='pr-8 font-30 md:block hidden' >
         <Link className='p-4' to={"*"} >خانه</Link>
         <Link className='p-4' to={"/careeropportunities"} >فرصت‌های شغلی</Link>
         <Link className='p-4' to={"/blog"} >بلاگ</Link>

@@ -10,7 +10,7 @@ h1{
 body{
   direction: rtl;
   font-family: IRANSansMobile-fa,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 #section1{
   margin-bottom: 40px;
@@ -19,4 +19,53 @@ body{
   left: 0;
   top: 0;
   color: #fff;
+}
+
+.linkinput{
+  border: none;
+  /* margin-left: 20px; */
+  margin-top: 60px;
+  width:270px;
+  border-bottom: oldlace solid 1px;
+  /* background-color: rgb(3, 165, 3); */
+}
+
+.linkinput:focus{
+  border: none;
+}
+
+.linkbtn{
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.inbtn{
+  width: 270px;
+  height: 55px;
+  margin-top: 30px;
+  border: white solid 1px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 500px;
+  margin-right: 220px;
+}
+
+.carhead{
+  width: 73vw;
+}
+
+.textdiv{
+  margin-left: 20px;
+  margin-right: 220px;
+}
+
+.linkdiv{
+  padding-left: 79px;
+}
+
+.dot{
+  margin-right: -6px;
+  z-index: 100;
 }

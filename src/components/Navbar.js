@@ -6,7 +6,7 @@ const Navbar = ({ toggle }) => {
   return (
     <nav className='flex items-center h-16 bg-white
     text-gray-500 relative shadow-sm' role={'navigation'}>
-      <div className='p-10 font-Jomhuria text-xl md:block hidden' id='navlink' >
+      <div className='p-10 text-xl md:block hidden' id='navlink' >
         <Link className='p-4' to={"*"} >خانه</Link>
         <Link className='p-4' to={"/careeropportunities"} >فرصت‌های شغلی</Link>
         <Link className='p-4' to={"/blog"} >بلاگ</Link>
