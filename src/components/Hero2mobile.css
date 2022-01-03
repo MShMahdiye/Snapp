@@ -1,0 +1,90 @@
+.imgfood{
+  margin: 10rem;
+  margin-top: 5rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 40vh;
+  background: url('https://web-cdn.snapp.ir/snapp-website/images/homepage/slider/Food.jpg') no-repeat center center/cover;
+  margin-bottom: 0;
+}
+/* .imgfood img{
+  display: flex;
+  width: 85%;
+  height: 27rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 8rem;
+} */
+
+.superimg{
+  background: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/asghar-image.jpg") no-repeat center center/cover;
+  flex: 2;
+  height: 65vh;
+  border-radius: 1rem;
+}
+
+.superapp{
+  margin-top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 30vh;
+}
+
+.supertext{
+  margin-top: 0;
+  flex: 1;
+  margin: 3rem;
+  padding-left: 21rem;
+}
+
+.supertext h2{
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  color: #333;
+}
+
+.supertext p{
+  font-size: 1rem;
+  color: #555;
+  font-weight: bold;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+.cdncollection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 72%;
+}
+
+.cdncollection .item-1 img{
+  height: 15rem;
+}
+
+.cdncollection .item-2 img{
+  height: 15rem;
+}
+
+.cdncollection .item-3 img{
+  height: 15rem;
+}
+
+.cdncollection .items{
+  width: 25%;
+}
+
+.cdncollection .items .text{
+  width: 70%;
+  margin-right: 2.7rem;
+  color: #555;
+}

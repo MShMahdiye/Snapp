@@ -26,7 +26,7 @@ function Hero1() {
 
   return (
     <section className='flex flex-col justify-center mt-20 bg-gray-100'>
-      <h2 class="m-8 text-7xl text-center">یک اپلیکیشن، برای تمام نیاز‌ها</h2>
+      <h2 class="m-12 text-5xl text-center text-gray-600">یک اپلیکیشن، برای تمام نیاز‌ها</h2>
       <div className='flex flex-wrap justify-center'>
         <div className='flex items-center justify-start pr-4 py-10 m-4 bg-white rounded-2xl' style={{width:363}}>
           <img alt="" src="https://snapp.ir/assets/images/snapp-services/cab.svg" width="80" height="80" class=" marginx-sm" loading="lazy" />
@@ -155,7 +155,7 @@ function Hero1() {
           : <div id="showMore"></div>
         }
         <div className='flex items-center justify-center mb-55' id='showMore'>
-        <button className={showMore ?'hidden':'flex items-center justify-center py-3 px-8 m-3 bg-white rounded text-green-400 border border-green-500 mb-0'} type="button" style={{width:125,height:55}} onClick={show}>مشاهده همه</button>
+        <button className={showMore ?'hidden':'flex items-center justify-center py-3 px-15 m-3 bg-white rounded text-green-400 border border-green-500 mb-0'} type="button" style={{width:125,height:55}} onClick={show}>مشاهده همه</button>
         </div>
       </div>
     </section>
