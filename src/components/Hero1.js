@@ -25,7 +25,7 @@ function Hero1() {
   })
 
   return (
-    <section className='flex flex-col justify-center mt-20 bg-gray-100'>
+    <section className='flex flex-col justify-center pt-20 bg-gray-100 z-4 w-screen'>
       <h2 class="m-12 text-5xl text-center text-gray-600">یک اپلیکیشن، برای تمام نیاز‌ها</h2>
       <div className='flex flex-wrap justify-center'>
         <div className='flex items-center justify-start pr-4 py-10 m-4 bg-white rounded-2xl' style={{width:363}}>

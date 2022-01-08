@@ -1,0 +1,56 @@
+body{
+  background: #444;
+  content: '';
+  background: url("https://career.snapp.ir/img/slider/slider1.jpg") no-repeat left center/cover;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+}
+
+.careernav{
+  height: 10vh;
+}
+
+.carabout{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+
+.linkcompany{
+  padding-top: 2vh ;
+  padding-bottom: 2vh ;
+  padding-right: 4vw;
+  padding-left: 4vw;
+}
+
+.allthing::before{
+ 
+}
+
+.context{
+  background: #fff;
+  z-index: 2;
+}
+
+.innercontext{
+  padding-bottom: 10vh;
+  justify-content: center;
+  text-align: center;
+  border-bottom: #444 solid 1px;
+}
+
+.slider-div{
+  padding-top: 10vh;
+}
+
+.slider-div h3{
+  margin-bottom: 700px;
+}
+
+.prev-btn h1 {
+  left: 0;
+}
+
+.next-btn h1 {
+  right: 0;
+}

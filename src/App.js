@@ -36,8 +36,8 @@ function App() {
 
   return (
     <>
-      <Navbar toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
+      {/* <Navbar toggle={toggle} /> */}
+      {/* <Dropdown isOpen={isOpen} toggle={toggle} /> */}
       <Routes>
         <Route path="*" element={<Home />} />
         {/* <Route path="/doctors/:id" element={<Doctor />} /> */}
@@ -50,7 +50,7 @@ function App() {
         <Route path="/careeropportunities" element={<Career />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -4,7 +4,7 @@ import './Hero.css'
 
 function Hero() {
   return (
-    <section className='flex justify-center items-center' id='section1'>
+    <section className='flex justify-center items-center bg-white w-screen' id='section1'>
       <div className='bg-green-600 h-screen flex flex-col flex-wrap justify-center
     items-center text-right col4' style={{ height: 550 }}>
         <div className='textdiv'>

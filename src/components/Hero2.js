@@ -6,7 +6,7 @@ import './Hero2.css'
 
 function Hero2() {
   return (
-    <section className='flex justify-center flex-col items-center' id='section3'>
+    <section className='flex justify-center flex-col items-center bg-white w-screen' id='section3'>
       <div className='imgfood'><a></a></div>
       <div className='superapp'>
         <div className='superimg'></div>

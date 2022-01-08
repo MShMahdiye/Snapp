@@ -13,7 +13,7 @@ body{
   /* font-weight: bold; */
 }
 #section1{
-  margin-bottom: 40px;
+ padding-bottom: 40px;
   flex: 1 ;
   right: 0;
   left: 0;

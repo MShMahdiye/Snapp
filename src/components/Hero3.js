@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function Hero3() {
   return (
-    <section className='flex justify-center flex-col bg-gray-100 items-center' id='section4'>
+    <section className='flex justify-center flex-col bg-gray-100 items-center w-screen z-4' id='section4'>
       <h2 className="m-12 text-5xl text-center text-gray-800">در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.</h2>
       <p className='text-xl text-gray-500 leading-3 p-10'>بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را اینترنتی انجام دهید</p>
       <button className='py-3 px-8 bg-green-500 rounded-lg text-white m-10'>ثبت‌نام رانندگان</button>
@@ -29,8 +29,6 @@ function Hero3() {
           <div ><p className='text-xl mb-2'>کار‌فیکس</p><p className='text-gray-500'>باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه‌اندازی کرده است.</p></div>
         </div>
       </div>
-
-
     </section>
   )
 }
